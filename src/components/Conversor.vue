@@ -2,7 +2,7 @@
   <div class="conversor">
     <h2>{{moedaA}} To {{moedaB}}</h2>
     <input type="text" v-model="moedaAValue" v-bind:placeholder="moedaA" />
-    <input type="button" value="Converter" v-on:click="converter" />
+    <input type="button" value="Converter" v-on:click="converter" :disabled="isLoading"/>
     <h4 v-if="isLoading">Carregando...</h4>
     <h2 v-if="!isLoading">{{moedaBValue}}</h2>
   </div>
