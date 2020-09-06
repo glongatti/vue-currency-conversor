@@ -26,9 +26,14 @@ export default {
 </script>
 
 <style>
+html,
+body {
+  background-color: #42b983;
+}
+
 #app {
-  margin:auto;
-  max-width:900px;
+  margin: auto;
+  max-width: 900px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,9 +42,9 @@ export default {
   margin-top: 60px;
 }
 
-.linha{
-  margin-top:40px;
-  display:flex;
+.linha {
+  margin-top: 40px;
+  display: flex;
   justify-content: space-around;
 }
 </style>
